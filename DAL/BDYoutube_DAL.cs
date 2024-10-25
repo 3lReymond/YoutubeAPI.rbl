@@ -10,7 +10,7 @@ namespace DAL
 {
     public class BDYoutube_DAL
     {
-        private readonly string apiKey = "AIzaSyBHtTQc8vZTNZZI2NUB28cTawjH9EfQioo"; // Reemplaza con tu clave de API
+        private readonly string apiKey = "AIzaSyBHtTQc8vZTNZZI2NUB28cTawjH9EfQioo"; 
 
         public async Task<List<BDYoutube_BLL>> BuscarVideos(string Informacion)
         {
